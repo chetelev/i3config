@@ -38,7 +38,7 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec i3-sensible-terminal
 
 # set background image
-exec --no-startup-id feh --bg-fill ~/Pictures/gnu.jpg
+exec --no-startup-id feh  --bg-scale ~/Pictures/gnu.jpg
 
 # start Picom
 exec --no-startup-id picom
